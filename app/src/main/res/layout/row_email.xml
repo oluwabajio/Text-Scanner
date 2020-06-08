@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@null"
+    app:cardBackgroundColor="#00ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@null">
+       <TextView
+           android:id="@+id/tv_email"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1.1"
+           android:layout_marginLeft="10dp"
+           android:layout_gravity="center_vertical"
+           android:textColor="#ffffff"
+           android:textStyle="bold"
+           android:text="sfddsdsdfdffddffffdfdfdfdffdfdfdfdfdfdffffdffff"
+           android:minLines="1"/>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+        <ImageView
+            android:id="@+id/img_email"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/img_share"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/img_copy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
