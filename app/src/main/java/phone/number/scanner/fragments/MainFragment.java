@@ -61,11 +61,18 @@ public class MainFragment extends Fragment {
             startActivity(intent);
         });
 
+        view.findViewById(R.id.ry_airtime).setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), ScannerActivity.class);
+            intent.putExtra("task", "airtime");
+            startActivity(intent);
+        });
+
         view.findViewById(R.id.ry_bar_code).setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), ScannerActivity.class);
             intent.putExtra("task", "bar_code");
             startActivity(intent);
         });
+
 
     }
 

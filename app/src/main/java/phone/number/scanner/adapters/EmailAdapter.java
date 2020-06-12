@@ -21,7 +21,7 @@ public class EmailAdapter extends RecyclerView.Adapter<EmailAdapter.MyViewHolder
 
         public MyViewHolder(View view) {
             super(view);
-            tvEmail = (TextView) view.findViewById(R.id.tv_email);
+            tvEmail = (TextView) view.findViewById(R.id.tv_item);
 
         }
     }
